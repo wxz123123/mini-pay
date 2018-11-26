@@ -1,8 +1,9 @@
 # mini-pay
+###交互时序图
+![Image text](https://raw.githubusercontent.com/wxz123123/img-folder/master/wxa-7-2.jpg)
 ### 一 小程序支付步骤（此demo只是介绍了小程序支付的后台系统部分，整个小程序支付还需要小程序端前台的配合）
     官方业务流程：https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_api.php?chapter=7_4&index=3
-    官方交互时序图：![Image text](https://raw.githubusercontent.com/wxz123123/img-folder/master/wxa-7-2.jpg)
-    
+
     商户系统和微信支付系统主要交互：
     
     1、小程序内调用登录接口，获取到用户的openid,api参见公共api【小程序登录API：https://developers.weixin.qq.com/miniprogram/dev/api/api-login.html】
